@@ -226,3 +226,39 @@ input, .tıkla {
     margin-left:5rem;
     margin-right: 5rem;
 }
+#tarayici {
+    display: flex;
+    flex-direction: column;
+    background-color: #E7DFFF;
+}
+.ortala {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom:5rem ;
+    margin-left:35%;
+}
+.ortala, input {
+    margin-top: 2rem;
+}
+#bilgi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 16px;
+    gap: 8px;
+    text-align: center;
+}
+
+.hizala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem ;
+}
+.hizala > p {
+    color: #9e9e9e;
+}
+.hizala > img {
+    padding-left: 20px;
+}
+    
