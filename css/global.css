@@ -261,4 +261,48 @@ input, .tıkla {
 .hizala > img {
     padding-left: 20px;
 }
-    
+#dünya {
+    background-color:#F9F9FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2.5rem 0 2.5rem 0 ;
+}
+#dünya > h2,p,ul,li {
+    padding-bottom: 1rem;
+}
+#dünya > ul > li > img {
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
+#soru {
+    background-color: white;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding: 2rem 0 0 0;
+}
+.tablo2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    font-size: 1.2rem;
+}
+#soru > h2,a,.tablo2 {
+    padding-bottom: 2rem;
+}
+.tablo2 >ul:nth-child(2) {
+    color: blue;
+    font-weight: bold;
+}
+#veri {
+    background-color: #E7DFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+
+
+
