@@ -28,8 +28,7 @@ ul > li {
     margin-top: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 6rem; 
+    justify-content: space-around;
     background-color: white;   
 }
 #navbar > ul > li > a {
@@ -47,12 +46,16 @@ ul > li {
     display: flex;
     justify-content: space-evenly;
     background-color: #f7f2ff;
-    align-items: center;
-    height: 650px;
-    
+    align-items: center; 
+    padding-top: 30px;
+}
+.resim {
+    background-color:#f7f2ff;
+    margin-top: 10px;
+    max-width: 75%;
 }
 .metin {
-    width: 700px;
+    max-width: 50%;
 }
 .metin > .baslik {
     font-size:2.7rem ;
@@ -87,155 +90,48 @@ input {
 input, .tıkla {
     margin-top: 1rem;
 }
-.resim {
-    position: relative;
-    top: 25px;
-    background-color: #F9F9FA;
-    height: 600px;
-    width: 416px ;
-    border-top: 10px solid #BFBFC7;
-    border-left: 10px solid #BFBFC7;
-    border-right: 10px solid #BFBFC7;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-.border {
-    display: flex;
-    align-items: center;
-    margin: 1.5rem 50px 1.5rem 100px;
-    position: relative;
-    right: 15px;
-}
-.border > p {
-    font-size: 1.6rem;
-}
-.border2 {
-    height: 400px;
-    background-color: white;
-    height: 474px;
-    
-}
-.icerik {
-    margin: 2rem 1rem;
-    position: relative;
-    left: 25px;    
-}
-.tablo {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-right:58px ;
-    font-size:1.1rem ;
-    background-color: white;
-    color: black;
-}
-.tablo >.sol > li {
-    list-style-type: square;
-}
-.sol {
-    margin-left:30px ;
-}
-.sag {
-    margin-right:60px;
-}
-#yazı {
+#yazı > p {
+    text-align: center; 
     font-size: 2rem;
     margin-top: 5rem;
     margin-bottom:5rem ;
-}
-#yazı > p {
-    text-align: center; 
-}
+} 
 .mor {
     color: #B833E1;
 }
 #ihlal {
     background-color: #F9F9FA;
-
-}
-
-#footer {
-    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.65rem 3.6rem;
-}
-#footer > a {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    padding: 0.1rem 0.7rem;
-    font-weight: bold;
-}
-#footer > a:hover {
-    color: #9059FF;
-}
-#footer > ul {
-    display: flex;
-    justify-content:space-between;
-}
-#footer > ul > li > a {
-    padding-left: 1.7rem;
-    color: white;
-}
-
-#ihlal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 500px;
-    gap: 6rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
-}
-.ihlal1 {
-    width: 800px; 
-}
-.misyon {
-    font-size: 1.1rem;
-    font-weight: 500;
+    gap: 1rem;
+    padding: 2rem 0 2rem 0;
 }
 .alt {
     text-decoration: underline;
     color: #0060DF;
 }
-.ihlal2 {
-    position: relative;
-    right:100px ;
-}
 .h2 {
     margin-bottom: 20px;
 }
 #risk {
-    height: 450px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 12rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
-    
+    gap: 8rem;
+    padding: 2rem 0 2rem 0 ;
 }
-.risk1 > img {
-    width: 1000px;
-    margin-left: 5rem;
-}
-.risk2 {
-    margin-left:5rem;
-    margin-right: 5rem;
-}
+
 #tarayici {
+    background-color: #E7DFFF;
     display: flex;
     flex-direction: column;
-    background-color: #E7DFFF;
+    align-items: center;
 }
 .ortala {
+    align-items: center;
     font-size: 2rem;
-    margin-top: 5rem;
-    margin-bottom:5rem ;
-    margin-left:35%;
+    margin:2rem 0 2rem 0;
 }
 .ortala, input {
     margin-top: 2rem;
@@ -248,7 +144,6 @@ input, .tıkla {
     gap: 8px;
     text-align: center;
 }
-
 .hizala {
     display: flex;
     justify-content: center;
@@ -286,7 +181,7 @@ input, .tıkla {
 .tablo2 {
     display: flex;
     flex-direction: row;
-    gap: 20rem;
+    gap: 10rem;
     font-size: 1.2rem;
 }
 #soru > h2,a,.tablo2 {
@@ -303,6 +198,29 @@ input, .tıkla {
     align-items: center;
     padding: 2rem 0 2rem 0;
 }
-
-
-
+#footer {
+    /* height: 4rem; */
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.65rem 3.6rem;
+}
+#footer > a {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 0.1rem 0.7rem;
+    font-weight: bold;
+}
+#footer > a:hover {
+    color: #9059FF;
+}
+#footer > ul {
+    display: flex;
+    justify-content:space-between;
+}
+#footer > ul > li > a {
+    padding-left: 1.7rem;
+    color: white;
+}

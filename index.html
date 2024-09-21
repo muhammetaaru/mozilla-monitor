@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" media="(max-width:576px)" href="/css/mobile.css" />
+    <link rel="stylesheet" media="(max-width:1000px)" href="/css/tablet.css" />
     <title>Mozilla Monitor</title>
   </head>
   <body>
     <header>
       <nav id="navbar">
         <h1>
-          <a href="index.html">
+          <a href="#">
             <img
               src="/images/monitor-logo.e25bb4f2.svg"
               alt="Mozilla Monitor"
@@ -24,7 +26,7 @@
         </ul>
       </nav>
     </header>
-    <section id="kisisel">
+    <section id="kisisel" class="aynı">
       <div class="metin">
         <h1 class="baslik">
           Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
@@ -35,7 +37,7 @@
         </p>
         <input
           type="email"
-          class="email"
+          class="email ortak"
           name="email"
           placeholder="kullanici@example.com"
         />
@@ -44,46 +46,19 @@
           Veri ihlali risklerini kontrol etmek için e-posta adresinizi yazın.
         </p>
       </div>
-
-      <div class="resim">
-        <div class="border">
-          <img src="/images/logo.png" alt="#" />
-          <p><span class="bold">Mozilla</span> Monitor</p>
-        </div>
-        <div class="border2">
-          <div class="icerik">
-            <img src="/images/mor.png" alt="" />
-            <div class="tablo">
-              <ul class="sol">
-                <li>E-posta adresleri</li>
-                <li>Parolalar</li>
-                <li>Kredi kartları</li>
-                <li>Banka hesap numarası</li>
-                <li>Diğer</li>
-              </ul>
-              <ul class="sag">
-                <li>4x</li>
-                <li>4x</li>
-                <li>3x</li>
-                <li>2x</li>
-                <li>1x</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <img src="/images/ekle.png" alt="#" class="resim" />
     </section>
-    <section id="yazı" class="container">
+    <section id="yazı" class="container aynı">
       <p class="bold">
         11 dakikada bir <span class="mor">yeni bir veri ihlali </span> yaşanıyor
         ve kişisel bilgileriniz ele geçiriliyor; ama merak etmeyin, biz
         yanınızdayız.
       </p>
     </section>
-    <section id="ihlal">
+    <section id="ihlal" class="aynı">
       <div class="ihlal1">
         <h2 class="h2">Veri ihlallerini çözmenize yardımcı oluyoruz</h2>
-        <p class="misyon">
+        <p>
           Misyonumuz, kişisel verilerinizin kontrolünü size geri vermek. Veri
           ihlallerini çözmenize ve bilgilerinizi gizli tutmanıza yardımcı
           oluyoruz. Bunu yaparken de
@@ -91,23 +66,23 @@
         </p>
         <input
           type="email"
-          class="email"
+          class="email ortak"
           name="email"
           placeholder="kullanici@example.com"
         />
         <a href="#" class="tıkla">Ücretsiz taramayı başlat</a>
       </div>
       <div class="ihlal2">
-        <img src="/images/scanning-for-exposures.3e94ca47.svg" alt="" />
+        <img src="/images/scanning-for-exposures.3e94ca47.svg" alt="scanning-for-exposures" />
       </div>
     </section>
-    <section id="risk">
+    <section id="risk" class="aynı">
       <div class="risk1">
         <img src="/images/leaked-password-example.e498ce5e.png" alt="#" />
       </div>
       <div class="risk2">
         <h2 class="h2">Hangi bilgilerim risk altında olabilir?</h2>
-        <p class="misyon">
+        <p>
           Veri sızıntıları maalesef dijital hayatımızın bir parçası. Ancak
           parolalarınızın, iletişim bilgilerinizin, finansal bilgilerinizin ve
           diğer kişisel bilgilerinizin ele geçirilmesi sizi kimlik hırsızlığı
@@ -115,26 +90,26 @@
         </p>
         <input
           type="email"
-          class="email"
+          class="email ortak"
           name="email"
           placeholder="kullanici@example.com"
         />
         <a href="#" class="tıkla">Ücretsiz taramayı başlat</a>
       </div>
     </section>
-    <section id="tarayici">
+    <section id="tarayici" class="aynı">
       <div class="ortala">
-        <p>Kullanmaya başlamak için e-postanızı tarayın</p>
+        <p class="bold">Kullanmaya başlamak için e-postanızı tarayın</p>
         <input
           type="email"
-          id="email"
+          class="email ortak"
           name="email"
           placeholder="kullanici@example.com"
         />
         <a href="#" class="tıkla">Ücretsiz taramayı başlat</a>
       </div>
     </section>
-    <section id="bilgi">
+    <section id="bilgi" class="aynı">
       <div>
         <h2>Dünya çapında 10 milyon kullanıcı</h2>
         <p>
@@ -151,7 +126,7 @@
         <img src="/images/google.fcd6b912.svg" alt="google" />
       </div>
     </section>
-    <section id="dünya">
+    <section id="dünya" class="aynı">
       <h2>Sizi nasıl koruyoruz?</h2>
       <p>
         Gizliliğiniz bizce vazgeçilmez bir hak. Bu yüzden veri ihlali izleme
@@ -173,7 +148,7 @@
       </ul>
       <a href="#" class="tıkla">İhlal uyarılarına kaydolun</a>
     </section>
-    <section id="soru">
+    <section id="soru" class="aynı">
       <h2>Sıkça sorulan sorular</h2>
       <a href="#" class="alt">Tüm SSS'lere bakın</a>
       <div class="tablo2">
@@ -189,12 +164,12 @@
         </ul>
       </div>
     </section>
-    <section id="veri">
+    <section id="veri" class="aynı">
       <h3>Verilerinizin kontrolünü geri alın</h3>
       <div>
-      <input
+        <input
           type="email"
-          class="email"
+          class="email ortak"
           name="email"
           placeholder="kullanici@example.com"
         />
